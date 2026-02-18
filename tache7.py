@@ -73,7 +73,7 @@ conso_par_jour = conso_totale / duree_jours
 print(f"\n Periode        : {ts_premier.strftime('%d/%m/%Y')} → {ts_dernier.strftime('%d/%m/%Y')}")
 print(f"  Duree          : {duree_jours:.1f} jours")
 print(f" Conso totale   : {conso_totale:.1f}%")
-print(f"📊 Conso/jour     : {conso_par_jour:.4f}% par jour")
+print(f" Conso/jour     : {conso_par_jour:.4f}% par jour")
 
 
 # Relevés avec au moins une alerte
@@ -92,7 +92,7 @@ for r in releves:
             "systemes_en_anomalie": alertes
         })
 
-print(f"\n🚨 Releves avec alertes ({len(releves_alertes)} sur {len(releves)}) :")
+print(f"\n Releves avec alertes ({len(releves_alertes)} sur {len(releves)}) :")
 for ra in releves_alertes:
     ts = datetime.strptime(ra["timestamp"], fmt).strftime("%d/%m/%Y %H:%M")
     print(f"   • [{ts}] Phase '{ra['phase']}' → {', '.join(ra['systemes_en_anomalie'])}")
