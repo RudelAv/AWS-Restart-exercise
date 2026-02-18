@@ -5,7 +5,7 @@
             "nom": "Artemis IV",
             "destination": "Lune",
             "date_lancement": "2026-09-15",
-            "statut": "planifiée",
+            "statut": "planifi\u00c3\u00a9e",
             "equipage": [
                 "Cmdt. Elena Vasquez",
                 "Dr. Kenji Tanaka",
@@ -54,13 +54,23 @@
             "nom": "Helios Station",
             "destination": "Orbite solaire",
             "date_lancement": "2027-01-22",
-            "statut": "planifiée",
+            "statut": "planifi\u00c3\u00a9e",
             "equipage": [
                 "Cmdt. Sofia Lindqvist",
                 "Dr. Rashid Al-Farsi"
             ],
             "duree_jours": 365,
             "budget_millions_usd": 3100
+        },
+        {
+            "id": "MSN-007",
+            "nom": "Proxima Relay",
+            "destination": "Alpha Centauri (sonde)",
+            "date_lancement": "2035-06-01",
+            "statut": "th\u00e9orique",
+            "equipage": [],
+            "duree_jours": 29200,
+            "budget_millions_usd": 125000
         }
     ]
 }
